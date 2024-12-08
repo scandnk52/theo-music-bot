@@ -15,7 +15,7 @@ module.exports = () => {
             try {
                 commands.push(file.data.toJSON());
             } catch (e) {
-                //console.error(`HATA: ${path} konumundaki komut yüklenemedi!`);
+                console.error(`HATA: ${path} konumundaki komut yüklenemedi!`);
             }
         });
     
